@@ -40,7 +40,7 @@ cd server
 # Create .env file and add:
 # MONGODB_URI=your_mongodb_connection_string
 # GOOGLE_API_KEY=your_google_api_key
-# PORT=5000
+# PORT=8000
 
 # 3. Install Dependencies
 npm install
@@ -53,4 +53,4 @@ npm run dev
 
 # 6. Chat Endpoint (after server starts)
 # Test using Postman or curl:
-# POST http://localhost:5000/api/chat
+# POST http://localhost:8000/api/chat
